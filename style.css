@@ -64,17 +64,22 @@ img{
     /* border-left: 5px solid greenyellow; */
 }
 .experience-color-1{
- border-left: 5px solid greenyellow;
+ /* border-left: 5px solid greenyellow; */
+ border-left: 7px solid;
+ border-image: linear-gradient(cyan, blue);
+ border-image-slice: 1;
 }
 .experience-color-2{
-    border-left: 5px solid indigo;
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
 }
 .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
-footer{
+footer p{
     margin-top: 50px;
-    margin-left: 800px;
+    text-align: center;
 }
