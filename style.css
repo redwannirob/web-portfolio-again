@@ -18,7 +18,7 @@ img{
 #colored-text{
     color: rgb(243, 208, 9);
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width {
